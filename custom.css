@@ -1,0 +1,77 @@
+/*--------------------------------Container-----------------------------*/
+.flex-container {
+    display: flex;
+    align-items: stretch;
+   /* background-color: #f1f1f1;*/
+  }
+.flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/*--------------------------------------Button list---------------------*/
+.button-list{
+    width: 38%;
+    font-size: 30px;
+    border-radius: 15px;
+}
+/*------------------------------------Drop Table-------------------------*/
+.box-border{
+    width: 290px;
+    float: left;
+    margin-right: 10px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    margin-bottom: 10px;
+    background: aliceblue;
+}
+.red-box-border{
+    width: 290px;
+    float: left;
+    margin-right: 10px;
+    height: 70px;
+    padding: 10px;
+    border: 3px dotted red;
+    margin-bottom: 10px;
+    background: aliceblue;
+}
+.list-item{
+    border-radius: 21px;
+    width: 200px;
+    height: 46px;
+    margin: 8px;
+    padding: -13px;
+    text-align: center;
+    padding-top: -48px;
+    padding-bottom: 6px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+  /*------------------------------------Scroll----------------------------------*/
+  .side-scroll{
+    background: aliceblue;  
+    height: 100%;
+    /* width: 100%; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+    flex-grow: 2;
+  }
+.close {
+    float: right;
+    /* display: inline-block; */
+    padding: 2px 5px;
+    /* background: #ccc; */
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 1px solid red;;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    display: none;
+    
+ }
+ 
